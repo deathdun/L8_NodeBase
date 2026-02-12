@@ -1,0 +1,20 @@
+{
+  "name": "lr8",
+  "version": "1.0.0",
+  "description": "Node.js lab work: OS, FS, modules, bcrypt, dotenv",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development nodemon index.js",
+    "build": "cross-env NODE_ENV=production node index.js",
+    "deploy": "cross-env NODE_ENV=domain node index.js",
+    "test": "node use.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.4"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "nodemon": "^3.1.11"
+  }
+}
